@@ -1,0 +1,817 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    background-image: url(../img/Shapes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contanier_1 {
+    max-width: 1385px;
+    margin: 0 auto;
+}
+
+.head {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 123px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 88px;
+
+}
+
+.menu-item a {
+    color: #837171;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid red;
+    color: #3A1212;
+}
+
+.burger {
+    margin-right: 40px;
+    z-index: 5;
+}
+
+.burgLog {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header_menu_list {
+    width: 153px;
+    background-color: #FF2625;
+    color: #E1E1E1;
+    flex-direction: column;
+    gap: 40px 0;
+    padding: 25px 35px 45px 45px;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    transform: translateX(-200%);
+    transition: transform .3s ease;
+
+}
+
+.header_menu_list.menu_open {
+    transform: translateX(0%);
+    top: -20px;
+}
+
+.menu_list_item {
+    list-style-type: none;
+    gap: 40px 0;
+    padding: 25px 35px 45px 45px;
+    text-align: center;
+}
+
+.menu_list_link {
+    text-decoration: none;
+    color: #E1E1E1;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+}
+
+.photo {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.title-texts {
+    width: 472px;
+}
+
+.text-title {
+    color: #FF2625;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+
+.text-main {
+    display: flex;
+    margin-top: 223px;
+}
+
+.main-title {
+    color: #3A1212;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+.text_info {
+    color: #504747;
+    font-family: Alegreya;
+    font-size: 22px;
+    line-height: 160%;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 60px;
+}
+
+.buttons a, .button_text2 a {
+    text-decoration: none;
+}
+
+.button_1 {
+    width: 200px;
+    height: 58px;
+    border-radius: 29px;
+    background: #FF2625;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Alegreya;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.button_2 {
+    width: 200px;
+    height: 58px;
+    border-radius: 29px;
+    border: 0.75px solid #FF2625;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #3A1212;
+    font-family: Alegreya;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.exercise {
+    color: rgba(255, 38, 37, 0.05);
+    font-family: Josefin Sans;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.our_services {
+    margin-top: 200px;
+}
+
+.contanier_2 {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.title_2 {
+    color: #FF2625;
+    font-family: Josefin Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text_info_2 {
+    width: 594px;
+    color: #3A1212;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 44px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    width: 270px;
+    height: 282px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 5px 5px 35px;
+    border: 0.5px solid #E1E1E1;
+    background: #FFF;
+    text-align: center;
+}
+
+.img_cards {
+    margin-top: 60px;
+}
+
+.cards-item {
+    margin-top: 50px;
+}
+
+.text_cards_1 {
+    width: 121px;
+}
+
+.text_cards_2 {
+    width: 88px;
+}
+
+.text_cards_3 {
+    width: 97px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #3A1212;
+    font-family: Alegreya;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.healthBenefits {
+    margin-top: 200px;
+}
+
+.contanier_3 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.text_2 h3 {
+    color: #FF2625;
+    font-family: Josefin Sans;
+    font-size: 26px;
+}
+
+.text_2 h1 {
+    width: 483px;
+    color: #3A1212;
+    font-family: Josefin Sans;
+    font-size: 44px;
+    margin-top: 30px;
+}
+
+.text_2 p {
+    color: #504747;
+    font-family: Alegreya;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 20px;
+}
+
+.button_text2 {
+    margin-top: 40px;
+}
+
+.improveMoods {
+    margin-top: 200px;
+}
+
+.ourInstructors {
+
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.contanier_4 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.picturies {
+    display: flex;
+}
+
+.picture {
+    margin-top: 90px;
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contanier_4 h3 {
+    text-align: center;
+    color: #FF2625;
+    font-family: Josefin Sans;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.title_4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 445px;
+    color: #3A1212;
+    font-family: Josefin Sans;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.picture_1_title {
+    color: #000;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.picture_1_about {
+    margin-top: 10px;
+    color: #504747;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.testimonial {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.contanier_3 {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.comment {
+    z-index: 1;
+    position: relative;
+    top: 50px;
+    right: 200px;
+    padding-top: 1%;
+    padding-left: 60px;
+    width: 624px;
+    height: 426px;
+    border-radius: 2px 100px 2px 2px;
+    background: #FFF;
+    border: 2px solid red;
+}
+
+.comment p {
+    width: 503px;
+}
+
+.email {
+    width: 633px;
+    margin: 0 auto;
+}
+
+.contanier_6 {
+    margin-top: 200px;
+}
+
+form {
+    margin-top: 40px;
+    position: relative;
+
+}
+
+input {
+    display: block;
+    width: 632px;
+    height: 50px;
+    border-radius: 36.5px;
+    background: #FFF;
+    border: 2px solid #FF2625;
+    outline: none;
+
+}
+
+input {
+    color: #9B9DAC;
+    font-family: Alegreya;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.contanier_6 button {
+    position: absolute;
+    top: 1px;
+    right: -43px;
+    width: 170px;
+    height: 53px;
+    border-radius: 30px;
+    background: #FF2625;
+    border: none;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contanier_6 button:hover {
+    background: black;
+}
+
+.contanier_6 h1 {
+    color: #3A1212;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.contanier_6 p {
+    margin-top: 25px;
+    color: #504747;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer {
+    margin-top: 200px;
+    background: rgba(255, 243, 244, 0.90);
+}
+
+.contanier_7 {
+    width: 1066px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_main {
+    margin-top: 40px;
+}
+
+.text_footer {
+    width: 332px;
+    color: #504747;
+    font-family: Alegreya;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.44px;
+}
+
+.text_thanks {
+    color: #A69B9B;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 450;
+
+}
+
+@media(min-width: 870px)  and (max-width: 1400px) {
+    .photo {
+        display: none;
+    }
+
+    .head {
+        display: flex;
+        justify-content: end;
+    }
+
+    .header_menu_list {
+        width: 153px;
+        background-color: #FF2625;
+        color: #E1E1E1;
+        flex-direction: column;
+        gap: 10px 0;
+        padding: 5px 5px 5px 5px;
+        position: absolute;
+        left: 0;
+        top: -20px;
+        transform: translateX(-200%);
+        transition: transform .3s ease;
+
+    }
+
+    .title-texts {
+        width: 480px;
+        margin-left: 200px;
+    }
+
+    .exercise {
+        margin-top: 20px;
+        margin-left: -100px;
+    }
+
+    .contanier_2 {
+        margin-top: -100px;
+
+    }
+
+    .contanier_2 {
+        width: 820px;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: flex;
+        width: 190px;
+        height: 270px;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px 5px 5px 35px;
+        border: 0.5px solid #E1E1E1;
+        background: #FFF;
+        text-align: center;
+    }
+
+    .img_girl2 {
+        display: none;
+    }
+
+    .text_2 {
+        width: 480px;
+        margin-left: 200px;
+    }
+
+    .img_girl3 {
+        display: none;
+    }
+
+    .picture img {
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    .mum {
+        display: none;
+    }
+
+    .comment {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 869px) {
+
+    .head {
+        justify-content: flex-end;
+    }
+    .photo {
+        display: none
+    }
+    .menu {
+        display: none;
+    }
+
+    .title-texts {
+        width: 100%;
+        justify-content: center;
+    }
+    .burgLog {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .burger {
+        margin: 0px;
+    }
+
+    .text-main {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .main-title {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .text_info {
+        text-align: center;
+        padding: 2%;
+    }
+
+    .buttons {
+        margin: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .button_2 {
+        margin: 0;
+    }
+
+    .exercise {
+        display: none;        
+    }
+
+    .our_services {
+        margin: 40px 20px;
+    }
+
+    .contanier_2 {
+        width: 100%;
+    }
+
+    .text_info_2 {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .card {
+        border-radius: 30px;
+    }
+
+    .healthBenefits {
+        margin: 40px 20px;
+    }
+
+    .contanier_3 {
+        margin: 0;
+    }
+
+    .img_girl2 {
+        display: none;
+    }
+
+    .text_2 {
+        text-align: center;
+    }
+
+    .text_2 h1 {
+        width: 100%;
+    }
+
+    .button_text2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .improveMoods {
+        margin: 40px 20px;
+    }
+
+    .contanier_3 {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img_girl3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    .img_girl3 img{
+        width: 90%;
+        border-radius: 30px;
+    }
+
+    .ourInstructors {
+        width: 100%;
+    }
+
+    .contanier_4 {
+        margin: 20px;
+    }
+
+    .picturies {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .picture {
+        width: 100%;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .picture img {
+        width: 80%;
+    }
+
+    .text_info_2 {
+        font-size: 40px;
+    }
+    
+    .text_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;      
+    }
+    .text_2 h1 {
+        font-size: 40px;
+        padding: 0 20px;
+    }
+
+    .title_4 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .testimonial {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mum {
+        display: none;
+    }
+
+    .comment {
+        width: 80%;
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        border-radius: 30px;
+        height: 100%;
+    }
+
+    .comment p {
+        width: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+    .contanier_6 {
+        margin: 40px 10px;
+    }
+
+    .contanier_6 h1 {
+        font-size: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    form input, form button {
+        width: 80%;
+        margin: 0 10px;
+    }
+    #subscribe {
+        position: static;
+    }
+
+    .footer {
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .contanier_7 {
+        width: 100%;
+    }
+
+    .text_footer {
+        font-size: 18px;
+    }
+
+}
